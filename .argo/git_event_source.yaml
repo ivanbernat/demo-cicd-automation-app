@@ -17,14 +17,14 @@ spec:
   github:
     argo-combined-app:                          # event name
       repositories:
-        - owner: majoferenc
+        - owner: ivanbernat
           names:
             - demo-cicd-automation-app
       webhook:
         endpoint: /argo-combined-app
         port: "12000"
         method: POST
-        url: https://9cb4-84-245-120-213.ngrok-free.app
+        url: https://1ba7-129-41-47-0.ngrok-free.app
       events:
         - "*"
       apiToken:
