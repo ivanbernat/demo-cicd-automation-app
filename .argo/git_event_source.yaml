@@ -24,7 +24,7 @@ spec:
         endpoint: /argo-combined-app
         port: "12000"
         method: POST
-        url: https://1ba7-129-41-47-0.ngrok-free.app
+        url: your_ngrok_url
       events:
         - "*"
       apiToken:
